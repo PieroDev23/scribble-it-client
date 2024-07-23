@@ -1,9 +1,9 @@
 import { Header } from '@app/components/ui/Header';
 import React, { PropsWithChildren } from 'react';
 
-type MainLayoutProps = PropsWithChildren;
+type WebLayoutProps = PropsWithChildren;
 
-function MainLayout({ children }: MainLayoutProps) {
+function WebLayout({ children }: WebLayoutProps) {
     /**
      * Initializers
      */
@@ -31,4 +31,4 @@ function MainLayout({ children }: MainLayoutProps) {
     );
 }
 
-export default MainLayout ;
+export default WebLayout;

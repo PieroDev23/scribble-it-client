@@ -28,12 +28,11 @@ function Header(props: HeaderProps) {
      * Renders
      */
     return (
-        <header>
-            <div>
+        <header className='flex justify-between items-center px-14 py-4 border-b border-black'>
+            <div className='flex gap-8 items-center'>
                 <Logo />
                 <Navigation />
             </div>
-
             <AccountNavigation />
         </header>
     );
