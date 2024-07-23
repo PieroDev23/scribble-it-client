@@ -1,11 +1,11 @@
 import React from 'react';
 
-type NavbarProps = {
+type NavigationProps = {
     someVar?: boolean;
     someFn?: (param: boolean) => void;
 };
 
-function Navbar(props: NavbarProps) {
+function Navigation(props: NavigationProps) {
     /**
      * Initializers
      */
@@ -27,9 +27,9 @@ function Navbar(props: NavbarProps) {
      */
     return (
         <>
-            <h1>Navbar Works</h1>
+            <p>Navigation Works</p>
         </>
     );
 }
 
-export { Navbar };
+export { Navigation };

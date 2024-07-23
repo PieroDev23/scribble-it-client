@@ -1,11 +1,11 @@
 import React from 'react';
 
-type RegisterPageProps = {
+type LoginPageProps = {
     someVar?: boolean;
     someFn?: (param: boolean) => void;
 };
 
-function RegisterPage(props: RegisterPageProps) {
+function LoginPage(props: LoginPageProps) {
     /**
      * Initializers
      */
@@ -27,9 +27,9 @@ function RegisterPage(props: RegisterPageProps) {
      */
     return (
         <>
-            <h1>RegisterPage Works</h1>
+            <h1>LoginPage Works</h1>
         </>
     );
 }
 
-export default RegisterPage;
+export default LoginPage;

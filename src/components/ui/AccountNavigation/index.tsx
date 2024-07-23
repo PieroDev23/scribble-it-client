@@ -1,11 +1,11 @@
 import React from 'react';
 
-type NavigationProps = {
+type AccountNavigationProps = {
     someVar?: boolean;
     someFn?: (param: boolean) => void;
 };
 
-function Navigation(props: NavigationProps) {
+function AccountNavigation(props: AccountNavigationProps) {
     /**
      * Initializers
      */
@@ -27,9 +27,9 @@ function Navigation(props: NavigationProps) {
      */
     return (
         <>
-            <h1>Navigation Works</h1>
+            <p>AccountNavigation Works</p>
         </>
     );
 }
 
-export { Navigation };
+export { AccountNavigation };

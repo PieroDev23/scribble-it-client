@@ -1,11 +1,11 @@
 import React from 'react';
 
-type LoginProps = {
+type AboutPageProps = {
     someVar?: boolean;
     someFn?: (param: boolean) => void;
 };
 
-function LoginPage(props: LoginProps) {
+function AboutPage(props: AboutPageProps) {
     /**
      * Initializers
      */
@@ -27,10 +27,9 @@ function LoginPage(props: LoginProps) {
      */
     return (
         <>
-            <h1>Login Works</h1>
+            <h1>AboutPage Works</h1>
         </>
     );
 }
 
-
-export default LoginPage;
+export default AboutPage;

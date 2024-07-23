@@ -1,9 +1,7 @@
+import { inter } from "@app/fonts";
 import type { Metadata } from "next";
-import { Domine, Inter } from "next/font/google";
-import "./globals.css";
+import '../styles/globals.css';
 
-const inter = Inter({ subsets: ["latin"], weight: ['400', '700'] });
-const domine = Domine({ subsets: ["latin"], weight: ['400', '600', '700'] });
 
 export const metadata: Metadata = {
   title: "Scribble It!",
@@ -17,7 +15,9 @@ function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${domine.className}`}>{children}</body>
+      <body className={`bg-scrbb-main-white antialiased ${inter.className} text-scrbb-black`}>
+        {children}
+      </body>
     </html>
   );
 }
